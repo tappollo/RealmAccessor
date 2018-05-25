@@ -18,6 +18,9 @@
 		172B00DB20B53F340062A328 /* DBAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172B00DA20B53F340062A328 /* DBAccess.swift */; };
 		172B00DD20B565E50062A328 /* Charm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172B00DC20B565E50062A328 /* Charm.swift */; };
 		172B00DF20B5E4850062A328 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172B00DE20B5E4850062A328 /* Result.swift */; };
+		172B00E320B685520062A328 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172B00E220B685520062A328 /* ViewModel.swift */; };
+		172B00E520B685630062A328 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172B00E420B685630062A328 /* Model.swift */; };
+		172B00E920B732C40062A328 /* AppLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172B00E820B732C40062A328 /* AppLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		172B00DA20B53F340062A328 /* DBAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBAccess.swift; sourceTree = "<group>"; };
 		172B00DC20B565E50062A328 /* Charm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charm.swift; sourceTree = "<group>"; };
 		172B00DE20B5E4850062A328 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		172B00E220B685520062A328 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		172B00E420B685630062A328 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		172B00E820B732C40062A328 /* AppLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLogger.swift; sourceTree = "<group>"; };
 		1D486461ADD2413AFEC0204F /* Pods-RealmAccessor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmAccessor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmAccessor/Pods-RealmAccessor.debug.xcconfig"; sourceTree = "<group>"; };
 		205DFEFF3A504FE129C89064 /* Pods_RealmAccessor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmAccessor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CB4CD53C16EF2464087192 /* Pods-RealmAccessor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmAccessor.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmAccessor/Pods-RealmAccessor.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +105,9 @@
 				172B00BE20B538650062A328 /* Assets.xcassets */,
 				172B00C020B538650062A328 /* LaunchScreen.storyboard */,
 				172B00C320B538650062A328 /* Info.plist */,
+				172B00E820B732C40062A328 /* AppLogger.swift */,
+				172B00E220B685520062A328 /* ViewModel.swift */,
+				172B00E420B685630062A328 /* Model.swift */,
 			);
 			path = RealmAccessor;
 			sourceTree = "<group>";
@@ -284,11 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				172B00E520B685630062A328 /* Model.swift in Sources */,
 				172B00DF20B5E4850062A328 /* Result.swift in Sources */,
 				172B00BA20B538640062A328 /* ViewController.swift in Sources */,
 				172B00DB20B53F340062A328 /* DBAccess.swift in Sources */,
 				172B00D920B53EC10062A328 /* Threading.swift in Sources */,
 				172B00DD20B565E50062A328 /* Charm.swift in Sources */,
+				172B00E320B685520062A328 /* ViewModel.swift in Sources */,
+				172B00E920B732C40062A328 /* AppLogger.swift in Sources */,
 				172B00B820B538640062A328 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
